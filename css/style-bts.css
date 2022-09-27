@@ -1,0 +1,304 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#header {
+    height: 20vh;
+    background-color: red;
+    align-items: baseline;
+}
+
+#main {
+    background: linear-gradient(354deg, rgba(255,133,133,1) 0%, rgba(134,137,255,1) 50%, rgba(255,133,133,1) 100%);
+}
+
+#footer {
+    height: 20vh;
+    background-color: red;
+}
+
+#logo-head {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+#buscar {
+    height: 40px;
+}
+
+#carrito {
+    height: 45px;
+    margin-left: 5px;
+}
+
+#login {
+    height: 45px;
+    margin-left: 5px;
+}
+
+#logo-foot {
+    width: 80%;
+    height: 85%;
+}
+
+#logo-insta {
+    height: 40px;
+}
+
+#logo-face {
+    height: 40px;
+}
+
+#logo-mail {
+    height: 40px;
+}
+
+#logo-whatsapp {
+    height: 40px;
+}
+
+#sub-foot {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+}
+
+#go-up {
+    width: 50px;
+    height: 50px;
+}
+
+.card-index {
+    background-color: #ffffff82;
+    margin: 2px;
+}
+
+.navbar {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white !important;
+}
+
+.input-group {
+    width: 50%;
+    align-items: center;
+}
+
+.nav-link {
+    color: white !important;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel {
+    width: 37%;
+    margin: auto;
+}
+
+.card-tienda {
+    border: 4px dotted #f04d11;
+    background-color: #ffffff9c;
+}
+
+.card-img-top {
+    width: 80%;
+    min-height: 390px;
+    max-height: 391px;
+}
+
+.btn-tienda {
+    font-family: verdana;
+    color: #fff;
+    background-color: #f04d11;
+    border-color: #f04d11 ;
+    border-radius: 5px;
+}
+
+.text-card {
+    font-family: Verdana;
+    font-size: large;
+}
+
+/* .carousel-inner {
+    max-height: 20rem;
+} */
+
+/* .d-block {
+
+    width: 95% !important;
+
+    height: 525px;
+
+    -o-object-fit: cover;
+
+    object-fit: cover;
+
+    margin: auto;
+
+} */
+
+.card-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.box-sect {
+    max-width: 20rem;
+    margin: 5px 10px 5px 10px;
+}
+
+
+#footer>a>.nav-link {
+    margin: 0;
+    padding: 0;
+}
+
+#footer>div>.container {
+    position: relative;
+    bottom: 28px;
+}
+
+.card-img-top:hover {
+    transform:scale(1.5);
+    transition-delay: 0.25s;
+    transition-duration: 1s;
+}
+
+#go-up:hover {
+    transform: rotate(-45deg);
+    transition-delay: 0.20s;
+    transition-duration: 1s;
+}
+
+#logo-whatsapp:hover , #logo-face:hover , #logo-insta:hover , #logo-mail:hover , #buscar:hover , #carrito:hover , #login:hover {
+    background-color: rgba(255, 255, 255, 0.578) ;
+    transition-delay: 0.10s;
+    transition-duration: 0.10s;
+    border-radius: 3px;
+}
+
+/* @media (max-width: 576px) {
+    #logo-head {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    div>.form-control , #buscar {
+        height: 30px;
+        justify-content: center;
+    }
+     .row {
+        justify-content: center !important;
+        
+    }
+    #footer > div > nav > {
+        flex-direction: row !important;
+    }
+    
+} */
+
+/* // Small devices (landscape phones, 576px ) */
+@media (min-width: 576px) {
+    #header {
+        height: 15vh;
+    }
+    
+    #logo-head {
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    div>.form-control,
+    #buscar {
+        height: 30px;
+        justify-content: center;
+    }
+
+    .row {
+        justify-content: center !important;
+
+    }
+
+    #footer {
+        height: 12vh;
+    }
+
+    #foot-nav {
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #footer>div>nav {
+        flex-direction: row !important;
+    }
+
+    #footer>div>nav>a {
+        text-align: center;
+        margin: 2px;
+    }
+
+    div > .cont-logo-foot {
+        display: none;
+    }
+
+    
+    #sub-foot {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 576px) and ( max-width: 992px) {
+    #cont-logo-foot {
+        display: none !important ;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #foot-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #footer>div>nav {
+        flex-direction: row !important;
+    }
+
+    #footer {
+        height: 12vh;
+    }
+
+    #header {
+        height: 15vh;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #footer {
+        height: 11vh;
+    }
+   
+    #header {
+        height: 12vh;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #foot-nav {
+        justify-content: start;
+    }
+    #header {
+        height: 15vh;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
