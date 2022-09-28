@@ -1,0 +1,60 @@
+// #footer {
+//     height: 20vh;
+//     background-color: $color1_battaglia;
+
+// }
+
+
+#footer {
+    height: 20vh;
+    background-color: red;
+}
+
+#logo-foot {
+    width: 80%;
+    height: 85%;
+}
+
+#logo-insta {
+    height: 40px;
+}
+
+#logo-face {
+    height: 40px;
+}
+
+#logo-mail {
+    height: 40px;
+}
+
+#logo-whatsapp {
+    height: 40px;
+}
+
+#sub-foot {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+}
+
+#go-up {
+    width: 50px;
+    height: 50px;
+}
+
+#footer>a>.nav-link {
+    margin: 0;
+    padding: 0;
+}
+
+#footer>div>.container {
+    position: relative;
+    bottom: 28px;
+}
+
+#go-up:hover {
+    transform: rotate(-45deg);
+    transition-delay: 0.20s;
+    transition-duration: 1s;
+}

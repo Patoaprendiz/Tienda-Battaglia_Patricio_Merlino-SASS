@@ -1,0 +1,61 @@
+#main {
+    background: linear-gradient(354deg, rgba(255, 133, 133, 1) 0%, rgba(134, 137, 255, 1) 50%, rgba(255, 133, 133, 1) 100%);
+
+    section {
+        div {
+            .carousel {
+                width: 37%;
+                margin: auto;
+            }
+        }
+    }
+
+    section {
+        .row {
+            .card-index {
+                background-color: #ffffff82;
+                margin: 2px;
+
+                .card-sect {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: $item-center;
+                    align-items: $item-center;
+                    .btn-danger {
+                        &:hover {
+                            background-color: $color1_battaglia;
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+// #main {
+//     background: linear-gradient(354deg, rgba(255,133,133,1) 0%, rgba(134,137,255,1) 50%, rgba(255,133,133,1) 100%);
+// }
+
+// .carousel {
+//     width: 37%;
+//     margin: auto;
+// }
+// .card-index {
+//   background-color: #ffffff82;
+//   margin: 2px;
+//}
+// .card-sect {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center
+// }
+// .box-sect {
+//     max-width: 20rem;
+//     margin: 5px 10px 5px 10px;
+// }

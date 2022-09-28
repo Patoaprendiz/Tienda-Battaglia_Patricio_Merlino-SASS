@@ -1,0 +1,134 @@
+#header {
+  height: 20vh;
+  background-color: red;
+  align-items: baseline;
+}
+#header #logo-head {
+  text-align: center;
+  margin-bottom: 2px;
+}
+#header .input-group {
+  width: 50%;
+  align-items: center;
+}
+
+#buscar {
+  height: 40px;
+}
+#buscar:hover {
+  background-color: rgba(255, 255, 255, 0.578);
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  border-radius: 3px;
+}
+
+#carrito {
+  height: 45px;
+  margin-left: 5px;
+}
+#carrito:hover {
+  background-color: rgba(255, 255, 255, 0.578);
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  border-radius: 3px;
+}
+
+#login {
+  height: 45px;
+  margin-left: 5px;
+}
+#login:hover {
+  background-color: rgba(255, 255, 255, 0.578);
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  border-radius: 3px;
+}
+
+.navbar {
+  text-decoration: none;
+  font-family: Verdana;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.nav-link {
+  color: white !important;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+#main {
+  background: linear-gradient(354deg, rgb(255, 133, 133) 0%, rgb(134, 137, 255) 50%, rgb(255, 133, 133) 100%);
+}
+#main section div .carousel {
+  width: 37%;
+  margin: auto;
+}
+#main section .row .card-index {
+  background-color: rgba(255, 255, 255, 0.5098039216);
+  margin: 2px;
+}
+#main section .row .card-index .card-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main section .row .card-index .card-sect .btn-danger:hover {
+  background-color: red;
+}
+
+#footer {
+  height: 20vh;
+  background-color: red;
+}
+
+#logo-foot {
+  width: 80%;
+  height: 85%;
+}
+
+#logo-insta {
+  height: 40px;
+}
+
+#logo-face {
+  height: 40px;
+}
+
+#logo-mail {
+  height: 40px;
+}
+
+#logo-whatsapp {
+  height: 40px;
+}
+
+#sub-foot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-bottom: 5px;
+}
+
+#go-up {
+  width: 50px;
+  height: 50px;
+}
+
+#footer > a > .nav-link {
+  margin: 0;
+  padding: 0;
+}
+
+#footer > div > .container {
+  position: relative;
+  bottom: 28px;
+}
+
+#go-up:hover {
+  transform: rotate(-45deg);
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+}/*# sourceMappingURL=style.css.map */
